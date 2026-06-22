@@ -237,17 +237,17 @@ function startGUI() {
     twitter.domElement.parentElement.appendChild(twitterIcon);
     twitterIcon.className = 'icon twitter';
 
-    let discord = gui.add({
-        fun: () => {
-            ga('send', 'event', 'link button', 'discord');
-            window.open('https://discordapp.com/invite/CeqZDDE');
-        }
-    }, 'fun').name('Discord');
-    discord.__li.className = 'cr function bigFont';
-    discord.__li.style.borderLeft = '3px solid #8C8C8C';
-    let discordIcon = document.createElement('span');
-    discord.domElement.parentElement.appendChild(discordIcon);
-    discordIcon.className = 'icon discord';
+    // let discord = gui.add({
+    //     fun: () => {
+    //         ga('send', 'event', 'link button', 'discord');
+    //         window.open('https://discordapp.com/invite/CeqZDDE');
+    //     }
+    // }, 'fun').name('Discord');
+    // discord.__li.className = 'cr function bigFont';
+    // discord.__li.style.borderLeft = '3px solid #8C8C8C';
+    // let discordIcon = document.createElement('span');
+    // discord.domElement.parentElement.appendChild(discordIcon);
+    // discordIcon.className = 'icon discord';
 
     let app = gui.add({
         fun: () => {
