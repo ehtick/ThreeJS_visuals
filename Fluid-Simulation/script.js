@@ -228,7 +228,7 @@ function startGUI() {
     let twitter = gui.add({
         fun: () => {
             ga('send', 'event', 'link button', 'twitter');
-            window.open('https://twitter.com/PavelDoGreat');
+            window.open('https://twitter.com/Aish2004Gupta');
         }
     }, 'fun').name('Twitter');
     twitter.__li.className = 'cr function bigFont';
