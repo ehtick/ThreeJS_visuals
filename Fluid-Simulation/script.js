@@ -215,7 +215,7 @@ function startGUI() {
 
     let github = gui.add({
         fun: () => {
-            window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
+            window.open('https://github.com/Aishwary2004Gupta/ThreeJS_visuals/tree/main/Fluid-Simulation');
             ga('send', 'event', 'link button', 'github');
         }
     }, 'fun').name('Github');
